@@ -1,72 +1,49 @@
-# Weather-Forecasting-Application
-Overview
+Weather-App
+forthebadge forthebadge    forthebadge forthebadge forthebadge forthebadge
 
-A Weather Forecasting Application that provides real-time weather updates, including temperature, humidity, wind speed, and weather conditions. This project fetches weather data from an API and displays forecasts for different locations.
+The Weather App is a real-time project developed using JavaScript, CSS, Express and Handlebars. This project is an interesting project for simply weather forecasting. The user can check the condition of the present-day climate probability and predict whether the day is a cloudy or sunny day. The user can write down the name of any city across the world in the app.  
 
-Features
+Get Started
+Clone or download this repository. git clone https://github.com/Amulya-coder/Weather-App.git
 
-Real-time weather updates
+Create a package.json file for your application. npm init
 
-7-day weather forecast
+Now install Express in the weather-app directory and save it in the dependencies list.
 
-Temperature, humidity, wind speed, and condition reports
+npm install express
 
-Search functionality for different locations
+After that install nodemon as globally npm install -g nodemon
 
-User-friendly interface with graphical representation
+Handlebars Installation
 
-Error handling for invalid locations
+Install using npm
 
-Installation
-
-Clone the Repository
-
-git clone https://github.com/your-username/weather-forecast-app.git
-cd weather-forecast-app
-
-Install Dependencies (For Python-based App)
-
-pip install requests
-
-Run the Application
-
-For a Python-based application:
-
-python weather_app.py
-
-For a web-based application:
-
-open index.html
+npm install express-handlebars
+Setup
+To start the server:
+cd Weather-App
+npm start
+Navigate to http://localhost:8000/ in your browser.
+Note
+Insert the API key that you got from OpenWeatherMap in public/js/main.js
 
 Usage
+This view engine uses sensible defaults that leverage the "Express-way" of structuring an app's views. This makes it trivial to use in basic apps:
 
-Enter the desired location.
+Directory Structure of Project
 
-Click the "Get Weather" button.
+.
+├── Templates
+└── partials
+    ├── footer.hbs
+    ├── headerLinks.hbs
+    ├── navbar.hbs
+└── views
+    ├── 404error.hbs
+    ├── about.hbs
+    ├── index.hbs
+    ├── weather.hbs
 
-View the weather details, including temperature, humidity, and forecast.
-
-Technologies Used
-
-Python (for backend, using requests module)
-
-JavaScript (for web-based frontend)
-
-OpenWeather API (or similar) for fetching real-time weather data
-
-HTML & CSS (for UI design)
-
-Contributing
-
-Fork the repository.
-
-Create a new branch: git checkout -b feature-branch
-
-Commit your changes: git commit -m 'Add new feature'
-
-Push to the branch: git push origin feature-branch
-
-Open a pull request.
-
-
-
+3 directories, 7 files
+📷 Screenshots
+weather1 weather2
